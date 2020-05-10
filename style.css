@@ -1,0 +1,96 @@
+ul {
+
+    list-style: none;
+
+    
+}
+
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.Nav {
+   width: 820px;
+   height: 100px;
+   padding: 10px;
+   position: absolute;
+   top: 40px;
+   z-index: 1;
+   left:500px; 
+}   
+
+.Nav .links:hover {
+   
+    border-bottom: 2px solid #f1f1f1;
+    color: red;
+
+}
+
+.links  {
+
+    display: inline;
+    font-family: verdana;
+    margin-left: 45px;
+    float: left;
+    background-color: none;
+
+}
+.lol {
+    text-decoration: none;
+    color: #ccc;
+}
+.lol : hover {
+    
+    color: #ccc;
+}
+.activee : hover{
+    border-bottom:none;
+}
+.activee {
+   color: #62bffe;
+   background-color: none;
+}
+body{
+  background-color:white; 
+}
+.color{
+  background-color: white;
+}
+.img{
+  position: relative;
+  left: 600px;
+  top: 30px;
+  height: 350px;
+  width: 600px;
+  border-radius: 10px;
+
+
+}
+.home{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.big{
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  background-color: white;
+  padding-top: 50px;
+
+
+}
+.mes{
+ 
+    color: black;
+
+  font-size: 30px;
+  height: 350px;
+  width: 500px;
+  top: 10px;
+  margin-left: 90px;
+  position: absolute;
+  margin-top: 50px;
+
+
+}

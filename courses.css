@@ -1,0 +1,67 @@
+.Nav {
+   width: 820px;
+   height: 100px;
+   padding: 10px;
+   position: absolute;
+   top: 40px;
+   z-index: 1;
+   left:500px; 
+}   
+.lol {
+    text-decoration: none;
+    color: #ccc;
+}
+.active : hover{
+    border-bottom:none;
+}
+  .Nav .links:hover {
+   
+    border-bottom: 2px solid #f1f1f1;
+
+}
+
+.active {
+   color: #1ba7ee;
+}
+ul {
+
+    list-style: none;
+    
+}
+
+
+ .links  {
+
+    display: inline;
+    font-family: verdana;
+    margin-left: 45px;
+    float: left;
+
+}
+
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+div.card1 {
+	float:left;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    margin-left: 50px;
+    padding-bottom: 15px;
+}
+div.card2 {
+	float:left;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    margin-left: 150px;
+    padding-bottom: 15px;
+}
+div.card3 {
+	float:right;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    padding-bottom: 15px;
+}

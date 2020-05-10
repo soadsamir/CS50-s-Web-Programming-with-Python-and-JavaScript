@@ -1,0 +1,57 @@
+
+$myWidth :500px;
+$myHight :360px;
+$myposition: absolute;
+$top: 100px;
+
+#mapy{
+   width: $myWidth;
+  height: $myHight;
+  position: $myposition;
+  top: $top;
+
+}
+
+
+
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.message {
+  @extend %message-shared;
+}
+
+.success {
+  @extend %message-shared;
+  border-color: green;
+}
+
+.error {
+  @extend %message-shared;
+  border-color: red;
+}
+
+.warning {
+  @extend %message-shared;
+  border-color: yellow;
+}
